@@ -12,7 +12,7 @@ I just play around with python to build mini stuffs:
 
 ## Apps
 
-- Random number game app: User loads file, chooses a game mode (easy, medium, hard), picks a random number, if right wins, else looses. User has specific number of chances depending on mode. Test app -  
+- Random number game app: User loads file, chooses a game mode (easy, medium, hard), picks a random number, if right wins, else looses. User has specific number of chances depending on mode. File url - <a href="https://github.com/sodiadrhain/mini-python-projects/blob/master/random-number-game.py">here</a> 
 
 
 ## How to test
