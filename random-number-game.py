@@ -6,7 +6,7 @@ print('Choose a Level');
 print('Enter below, easy or medium or hard')
 level = input('Enter a Level: ');
 if(level == 'easy'):
-guess = 6
+        guess = 6
         print('You are in easy mode: Only 6 guesses available');
         for i in range(1,guess+1):
                 guesses = int(input('Enter your guess: '));
