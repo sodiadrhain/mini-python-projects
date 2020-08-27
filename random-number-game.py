@@ -7,7 +7,7 @@ print('Enter below, easy or medium or hard')
 level = input('Enter a Level: ');
 if(level == 'easy'):
         guess = 6
-        print('You are in easy mode: Only 6 guesses available');
+        print('You are in easy mode: Only 6 guesses available, Guess btw 1 and 10');
         for i in range(1,guess+1):
                 guesses = int(input('Enter your guess: '));
                 num = random.randint(1,10);
@@ -24,7 +24,7 @@ if(level == 'easy'):
         
 elif(level == 'medium'):
         guess = 4
-        print('You are in medium mode: Only 4 guesses available');
+        print('You are in medium mode: Only 4 guesses available, Guess btw 1 and 20');
         for i in range(1,guess+1):
                 guesses = int(input('Enter your guess: '));
                 num = random.randint(1,20);
@@ -39,9 +39,9 @@ elif(level == 'medium'):
                         print('That was wrong');
         print('Game over!');
         
-else:
+elif(level == 'hard'):
         guess = 3
-        print('You are in hard mode: Only 3 guesses available');
+        print('You are in hard mode: Only 3 guesses available, Guess btw 1 and 50');
         for i in range(1,guess+1):
                 guesses = int(input('Enter your guess: '));
                 num = random.randint(1,50);
@@ -55,3 +55,5 @@ else:
                         print('Your number is', guesses);
                         print('That was wrong');
         print('Game over!');
+else:
+        print('Wrong level entered, start app again!')
