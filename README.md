@@ -18,5 +18,7 @@ I just play around with python to build mini stuffs:
 ## How to test
 
 -Clone repo
+<br>
 -Download python locally
+<br>
 -Locate the file, copy and paste to IDE, and RUN
